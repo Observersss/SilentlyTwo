@@ -30,8 +30,8 @@ endif()
 # These are internal implementation details. They may be removed at any time.
 set(__QT_DEPLOY_SYSTEM_NAME "Darwin")
 set(__QT_DEPLOY_IS_SHARED_LIBS_BUILD "ON")
-set(__QT_DEPLOY_TOOL "/Users/ilagoncarenko/Qt/6.6.0/macos/bin/macdeployqt")
-set(__QT_DEPLOY_IMPL_DIR "/Users/ilagoncarenko/Downloads/АГ/SilentlyTwo/build-Silently-Qt_6_6_0_for_macOS-Debug/.qt")
+set(__QT_DEPLOY_TOOL "/Users/viktoriyabilyk/Qt/6.6.0/macos/bin/macdeployqt")
+set(__QT_DEPLOY_IMPL_DIR "/Users/viktoriyabilyk/Downloads/P/SilentlyTwo/build-Silently-Qt_6_6_0_for_macOS-Debug/.qt")
 set(__QT_DEPLOY_VERBOSE "")
 set(__QT_CMAKE_EXPORT_NAMESPACE "Qt6")
 set(__QT_DEPLOY_GENERATOR_IS_MULTI_CONFIG "0")
@@ -39,7 +39,7 @@ set(__QT_DEPLOY_ACTIVE_CONFIG "Debug")
 set(__QT_NO_CREATE_VERSIONLESS_FUNCTIONS "")
 set(__QT_DEFAULT_MAJOR_VERSION "6")
 set(__QT_DEPLOY_QT_ADDITIONAL_PACKAGES_PREFIX_PATH "")
-set(__QT_DEPLOY_QT_INSTALL_PREFIX "/Users/ilagoncarenko/Qt/6.6.0/macos")
+set(__QT_DEPLOY_QT_INSTALL_PREFIX "/Users/viktoriyabilyk/Qt/6.6.0/macos")
 set(__QT_DEPLOY_QT_INSTALL_BINS "bin")
 set(__QT_DEPLOY_QT_INSTALL_PLUGINS "./plugins")
 set(__QT_DEPLOY_QT_INSTALL_TRANSLATIONS "./translations")
@@ -50,7 +50,7 @@ set(__QT_DEPLOY_PATCHELF_EXECUTABLE "")
 
 # Define the CMake commands to be made available during deployment.
 set(__qt_deploy_support_files
-    "/Users/ilagoncarenko/Qt/6.6.0/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/Users/viktoriyabilyk/Qt/6.6.0/macos/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")
