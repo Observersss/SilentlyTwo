@@ -1,0 +1,4 @@
+#ifndef DATEBASENOTES_H
+#define DATEBASENOTES_H
+
+#endif // DATEBASENOTES_H

@@ -14,8 +14,18 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_pushButton_2_clicked()
+void MainWindow::on_change_space_clicked()
 {
-
+    if(ui->spaces->currentIndex()==1)
+    {
+        ui->spaces->setCurrentIndex(0);
+        ui->change_space->setText("Go Notes");
+        ui->info->setText("Space now: RPG");
+    } else
+    {
+        ui->spaces->setCurrentIndex(1);
+        ui->change_space->setText("Go RPG");
+        ui->info->setText("Space now: Notes");
+    }
 }
 

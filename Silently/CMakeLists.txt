@@ -23,6 +23,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Silently
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        datebaseNotes/datebasenotes.h
+        datebaseNotes/datebasenotes.cpp
+        datebaseRPG/datebaserpg.h datebaseRPG/datebaserpg.cpp
+        RPGspace/rpgspace.h RPGspace/rpgspace.cpp
+        Notespace/notespace.h Notespace/notespace.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Silently APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
