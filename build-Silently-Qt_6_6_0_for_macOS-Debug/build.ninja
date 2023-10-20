@@ -102,6 +102,22 @@ build CMakeFiles/Silently.dir/Notespace/notespace.cpp.o: CXX_COMPILER__Silently_
   OBJECT_DIR = CMakeFiles/Silently.dir
   OBJECT_FILE_DIR = CMakeFiles/Silently.dir/Notespace
 
+build CMakeFiles/Silently.dir/RPGspace/classItem.cpp.o: CXX_COMPILER__Silently_Debug /Users/ilagoncarenko/Downloads/АГ/SilentlyTwo/Silently/RPGspace/classItem.cpp || cmake_object_order_depends_target_Silently
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Silently.dir/RPGspace/classItem.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/ilagoncarenko/Downloads/АГ/SilentlyTwo/build-Silently-Qt_6_6_0_for_macOS-Debug/Silently_autogen/include -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Headers -iframework /Users/ilagoncarenko/Qt/6.6.0/macos/lib -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/mkspecs/macx-clang -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/include -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/Silently.dir
+  OBJECT_FILE_DIR = CMakeFiles/Silently.dir/RPGspace
+
+build CMakeFiles/Silently.dir/RPGspace/classInventory.cpp.o: CXX_COMPILER__Silently_Debug /Users/ilagoncarenko/Downloads/АГ/SilentlyTwo/Silently/RPGspace/classInventory.cpp || cmake_object_order_depends_target_Silently
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Silently.dir/RPGspace/classInventory.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17
+  INCLUDES = -I/Users/ilagoncarenko/Downloads/АГ/SilentlyTwo/build-Silently-Qt_6_6_0_for_macOS-Debug/Silently_autogen/include -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Headers -iframework /Users/ilagoncarenko/Qt/6.6.0/macos/lib -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/mkspecs/macx-clang -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/include -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/Silently.dir
+  OBJECT_FILE_DIR = CMakeFiles/Silently.dir/RPGspace
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Silently
@@ -110,7 +126,7 @@ build CMakeFiles/Silently.dir/Notespace/notespace.cpp.o: CXX_COMPILER__Silently_
 #############################################
 # Link the executable Silently.app/Contents/MacOS/Silently
 
-build Silently.app/Contents/MacOS/Silently: CXX_EXECUTABLE_LINKER__Silently_Debug CMakeFiles/Silently.dir/Silently_autogen/mocs_compilation.cpp.o CMakeFiles/Silently.dir/main.cpp.o CMakeFiles/Silently.dir/mainwindow.cpp.o CMakeFiles/Silently.dir/datebaseNotes/datebasenotes.cpp.o CMakeFiles/Silently.dir/datebaseRPG/datebaserpg.cpp.o CMakeFiles/Silently.dir/RPGspace/rpgspace.cpp.o CMakeFiles/Silently.dir/Notespace/notespace.cpp.o | /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore || Silently_autogen Silently_autogen_timestamp_deps
+build Silently.app/Contents/MacOS/Silently: CXX_EXECUTABLE_LINKER__Silently_Debug CMakeFiles/Silently.dir/Silently_autogen/mocs_compilation.cpp.o CMakeFiles/Silently.dir/main.cpp.o CMakeFiles/Silently.dir/mainwindow.cpp.o CMakeFiles/Silently.dir/datebaseNotes/datebasenotes.cpp.o CMakeFiles/Silently.dir/datebaseRPG/datebaserpg.cpp.o CMakeFiles/Silently.dir/RPGspace/rpgspace.cpp.o CMakeFiles/Silently.dir/Notespace/notespace.cpp.o CMakeFiles/Silently.dir/RPGspace/classItem.cpp.o CMakeFiles/Silently.dir/RPGspace/classInventory.cpp.o | /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore || Silently_autogen Silently_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Users/ilagoncarenko/Qt/6.6.0/macos/lib  /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -F/Users/ilagoncarenko/Qt/6.6.0/macos/lib
@@ -212,7 +228,7 @@ build Silently_autogen/timestamp Silently_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles/Silently_autogen_timestamp_deps
 
-build CMakeFiles/Silently_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Silently_autogen_timestamp_deps: phony /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/ilagoncarenko/Qt/6.6.0/macos/./libexec/uic /Users/ilagoncarenko/Qt/6.6.0/macos/./libexec/moc /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+build CMakeFiles/Silently_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Silently_autogen_timestamp_deps: phony /Users/ilagoncarenko/Qt/6.6.0/macos/./libexec/moc /Users/ilagoncarenko/Qt/6.6.0/macos/./libexec/uic /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/ilagoncarenko/Qt/6.6.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
 
 
 #############################################

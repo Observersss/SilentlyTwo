@@ -28,6 +28,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         datebaseRPG/datebaserpg.h datebaseRPG/datebaserpg.cpp
         RPGspace/rpgspace.h RPGspace/rpgspace.cpp
         Notespace/notespace.h Notespace/notespace.cpp
+        RPGspace/classItem.cpp
+        RPGspace/classInventory.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Silently APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
